@@ -13,6 +13,10 @@ body {
     border: 0.6px solid #dadce0;
 }
 
+.border-top-light-gray {
+    border-top: 0.6px solid #dadce0;
+}
+
 .padding-top-medium {
     padding-top: 16px;
 }
