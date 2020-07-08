@@ -1,0 +1,22 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica,
+        Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+}
+
+.radius-large {
+    border-radius: 8px;
+}
+
+.border-light-gray {
+    border: 0.6px solid #dadce0;
+}
+
+.padding-top-medium {
+    padding-top: 16px;
+}
+
+.padding-left-medium {
+    padding-left: 16px;
+}
