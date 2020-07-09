@@ -25,6 +25,10 @@ body {
   background: #1a73e8;
 }
 
+.outline-color-primary {
+  outline-color: #1a73e8;
+}
+
 .font-size-small {
   font-size: 14px;
 }
@@ -79,6 +83,11 @@ body {
 
 .padding-medium {
   padding: 16px;
+}
+
+.padding-vertical-small {
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .padding-vertical-smaller {
