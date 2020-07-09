@@ -5,6 +5,10 @@ body {
   font-size: 14px;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .shade-013 {
   color: #222;
 }
