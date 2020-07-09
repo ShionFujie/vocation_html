@@ -5,12 +5,16 @@ body {
   font-size: 14px;
 }
 
+.shade-013 {
+  color: #222;
+}
+
 .shade-02 {
   color: #333;
 }
 
-.shade-013 {
-  color: #222;
+.shade-047 {
+  color: #777;
 }
 
 .shade-100 {
