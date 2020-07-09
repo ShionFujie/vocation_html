@@ -6,11 +6,23 @@ body {
 }
 
 .shade-02 {
-    color: #333;
+  color: #333;
 }
 
 .shade-013 {
   color: #222;
+}
+
+.shade-100 {
+  color: #fff;
+}
+
+.background-primary {
+  background: #1a73e8;
+}
+
+.font-size-small {
+  font-size: 14px;
 }
 
 .font-size-medium {
@@ -22,7 +34,15 @@ body {
 }
 
 .font-weight-medium {
-    font-weight: 500;
+  font-weight: 500;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+.content-box {
+  box-sizing: content-box;
 }
 
 .radius-small {
@@ -47,6 +67,10 @@ body {
 
 .margin-top-smaller {
   margin-top: 8px;
+}
+
+.margin-top-larger {
+  margin-top: 24px;
 }
 
 .padding-medium {
@@ -100,7 +124,27 @@ body {
   border: none;
 }
 
+.no-outline {
+  outline: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
 .flexbox-column {
   display: flex;
   flex-direction: column;
+}
+
+.flexbox-align-self-start {
+  align-self: flex-start;
+}
+
+.flexbox-align-self-end {
+  align-self: flex-end;
+}
+
+.full-width {
+  width: 100%;
 }
