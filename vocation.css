@@ -5,6 +5,11 @@ body {
   font-size: 14px;
 }
 
+input[type=radio] {
+  margin: 0;
+  padding: 0;
+}
+
 .italic {
   font-style: italic;
 }
@@ -33,6 +38,18 @@ body {
   outline-color: #1a73e8;
 }
 
+.border-color-primary {
+  border-color: #1a73e8;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
 .font-size-small {
   font-size: 14px;
 }
@@ -55,6 +72,27 @@ body {
 
 .content-box {
   box-sizing: content-box;
+}
+
+.border-box {
+  box-sizing: border-box;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.border-circle {
+  border-style: solid;
+  border-radius: 50%;
+}
+
+.border-width-02 {
+  border-width: 2px;
+}
+
+.border-width-10 {
+  border-width: 10px
 }
 
 .radius-small {
@@ -83,6 +121,14 @@ body {
 
 .margin-top-larger {
   margin-top: 24px;
+}
+
+.padding-tiny {
+  padding: 4px;
+}
+
+.padding-smaller {
+  padding: 8px;
 }
 
 .padding-medium {
@@ -149,9 +195,24 @@ body {
   cursor: pointer;
 }
 
-.flexbox-column {
+.flexbox {
   display: flex;
+}
+
+.flexbox-direction-column {
   flex-direction: column;
+}
+
+.flexbox-direction-row {
+  flex-direction: row;
+}
+
+.flexbox-justify-content-center {
+  justify-content: center;
+}
+
+.flexbox-align-content-center {
+  align-content: center;
 }
 
 .flexbox-align-self-start {
@@ -164,4 +225,16 @@ body {
 
 .full-width {
   width: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.scale-50 {
+  transform: scale(.5);
+}
+
+.opacity-zero {
+  opacity: 0;
 }
