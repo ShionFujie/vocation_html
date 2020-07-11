@@ -42,6 +42,10 @@ input[type=radio] {
   border-color: #1a73e8;
 }
 
+.border-color-light-gray {
+  border-color: #dadce0;
+}
+
 .border-shade-02 {
   border-color: #333;
 }
@@ -99,6 +103,16 @@ input[type=radio] {
   border-width: 10px
 }
 
+.radius-top-large {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.radius-bottom-large {
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
 .radius-small {
   border-radius: 4px;
 }
@@ -117,6 +131,18 @@ input[type=radio] {
 
 .border-top-light-gray {
   border-top: 0.6px solid #dadce0;
+}
+
+.border-top-06 {
+  border-top-width: 0.6px;
+  border-top-style: solid;
+}
+
+.border-vertical-06 {
+  border-right-width: 0.6px;
+  border-right-style: solid;
+  border-left-width: 0.6px;
+  border-left-style: solid;
 }
 
 .margin-top-smaller {
@@ -185,6 +211,10 @@ input[type=radio] {
 
 .padding-bottom-huge {
   padding-bottom: 36px;
+}
+
+.box-shadow {
+  box-shadow: 0 2px 2px rgba(0,0,0,0.22);
 }
 
 .input:not([type=checkbox]) {
