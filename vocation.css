@@ -42,6 +42,10 @@ input[type=radio] {
   border-color: #1a73e8;
 }
 
+.border-color-light-gray {
+  border-color: #dadce0;
+}
+
 .border-shade-02 {
   border-color: #333;
 }
@@ -107,6 +111,16 @@ input[type=radio] {
   border-radius: 8px;
 }
 
+.radius-top-large {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.radius-bottom-large {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
 .border-gray {
   border: 1px solid #dadce0;
 }
@@ -117,6 +131,23 @@ input[type=radio] {
 
 .border-top-light-gray {
   border-top: 0.6px solid #dadce0;
+}
+
+.border-top-06 {
+  border-top-width: 0.6px;
+  border-top-style: solid;
+}
+
+.border-bottom-06 {
+  border-bottom-width: 0.6px;
+  border-bottom-style: solid;
+}
+
+.border-vertical-06 {
+  border-left-width: 0.6px;
+  border-left-style: solid;
+  border-right-width: 0.6px;
+  border-right-style: solid;
 }
 
 .margin-top-smaller {
