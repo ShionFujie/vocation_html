@@ -205,6 +205,11 @@ input[type=radio] {
   padding-left: 16px;
 }
 
+.padding-horizontal-huge {
+  padding-right: 36px;
+  padding-left: 36px;
+}
+
 .padding-top-medium {
   padding-top: 16px;
 }
@@ -267,6 +272,10 @@ input[type=radio] {
 
 .flexbox {
   display: flex;
+}
+
+.flex-grow {
+  flex-grow: 1;
 }
 
 .flexbox-direction-column {
