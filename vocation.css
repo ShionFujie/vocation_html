@@ -34,6 +34,10 @@ input[type=radio] {
   background: #1a73e8;
 }
 
+.background-shade-97 {
+  background: #F7F7F7;
+}
+
 .outline-color-primary {
   outline-color: #1a73e8;
 }
@@ -68,6 +72,10 @@ input[type=radio] {
 
 .font-size-larger {
   font-size: 24px;
+}
+
+.font-size-huge {
+  font-size: 32px;
 }
 
 .font-weight-medium {
@@ -133,6 +141,10 @@ input[type=radio] {
   border-top: 0.6px solid #dadce0;
 }
 
+.border-right-light-gray {
+  border-right: 0.6px solid #dadce0;
+}
+
 .border-top-06 {
   border-top-width: 0.6px;
   border-top-style: solid;
@@ -147,6 +159,14 @@ input[type=radio] {
 
 .margin-top-smaller {
   margin-top: 8px;
+}
+
+.margin-top-small {
+  margin-top: 12px;
+}
+
+.margin-top-medium {
+  margin-top: 16px;
 }
 
 .margin-top-larger {
@@ -189,12 +209,24 @@ input[type=radio] {
   padding-top: 16px;
 }
 
+.padding-top-huge {
+  padding-top: 36px;
+}
+
 .padding-left-smaller {
   padding-left: 8px;
 }
 
 .padding-left-medium {
   padding-left: 16px;
+}
+
+.padding-left-larger {
+  padding-left: 24px;
+}
+
+.padding-left-huge {
+  padding-left: 36px;
 }
 
 .padding-bottom-smaller {
