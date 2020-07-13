@@ -173,6 +173,10 @@ input[type=radio] {
   margin-top: 24px;
 }
 
+.margin-top-huge {
+  margin-top: 36px;
+}
+
 .padding-tiny {
   padding: 4px;
 }
