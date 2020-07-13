@@ -14,6 +14,10 @@ input[type=radio] {
   font-style: italic;
 }
 
+.primary {
+  color: #1a73e8;
+}
+
 .shade-013 {
   color: #222;
 }
@@ -24,6 +28,10 @@ input[type=radio] {
 
 .shade-047 {
   color: #777;
+}
+
+.shade-054 {
+  color: rgba(0, 0, 0, .54);
 }
 
 .shade-100 {
@@ -189,14 +197,19 @@ input[type=radio] {
   padding: 16px;
 }
 
-.padding-vertical-small {
-  padding-top: 12px;
-  padding-bottom: 12px;
+.padding-vertical-tiny {
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 .padding-vertical-smaller {
   padding-top: 8px;
   padding-bottom: 8px;
+}
+
+.padding-vertical-small {
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .padding-horizontal-small {
@@ -236,6 +249,10 @@ input[type=radio] {
 
 .padding-left-huge {
   padding-left: 36px;
+}
+
+.padding-bottom-tiny {
+  padding-bottom: 4px;
 }
 
 .padding-bottom-smaller {
@@ -324,4 +341,8 @@ input[type=radio] {
 
 .opacity-zero {
   opacity: 0;
+}
+
+.line-height-150 {
+  line-height: 1.5em;
 }
