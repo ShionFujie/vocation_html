@@ -189,6 +189,10 @@ input[type=radio] {
   margin-top: 36px;
 }
 
+.margin-right-small {
+  margin-right: 12px;
+}
+
 .padding-tiny {
   padding: 4px;
 }
@@ -214,6 +218,11 @@ input[type=radio] {
 .padding-vertical-small {
   padding-top: 12px;
   padding-bottom: 12px;
+}
+
+.padding-vertical-medium {
+  padding-top: 16px;
+  padding-block-end: 16px;
 }
 
 .padding-horizontal-small {
@@ -325,6 +334,11 @@ input[type=radio] {
 
 .flexbox-align-self-end {
   align-self: flex-end;
+}
+
+.flexbox-center {
+  justify-content: center;
+  align-items: center;
 }
 
 .full-width {
