@@ -373,6 +373,6 @@ input[type=radio] {
   line-height: 1.5em;
 }
 
-.cap {
+.all-cap {
   text-transform: uppercase; 
 }
