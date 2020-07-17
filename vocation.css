@@ -74,6 +74,10 @@ input[type=radio] {
   position: absolute;
 }
 
+.font-size-tiny {
+  font-size: 12px;
+}
+
 .font-size-small {
   font-size: 14px;
 }
@@ -367,4 +371,8 @@ input[type=radio] {
 
 .line-height-150 {
   line-height: 1.5em;
+}
+
+.cap {
+  text-transform: uppercase; 
 }
