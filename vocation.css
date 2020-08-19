@@ -1,6 +1,6 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica,
-    Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: Roboto, Helvetica,
+    Arial, sans-serif, Apple Color Emoji;
   -webkit-font-smoothing: antialiased;
   font-size: 14px;
 }
@@ -99,7 +99,7 @@ input[type=radio] {
 }
 
 .font-weight-medium {
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .font-weight-bold {
@@ -252,12 +252,29 @@ input[type=radio] {
 }
 
 .padding-horizontal-huge {
+  padding-right: 28px;
+  padding-left: 28px;
+}
+
+/* .padding-horizontal-huge {
   padding-right: 36px;
   padding-left: 36px;
+} */
+
+.padding-top-tiny {
+  padding-top: 4px;
+}
+
+.padding-top-smaller {
+  padding-top: 8px;
 }
 
 .padding-top-medium {
   padding-top: 16px;
+}
+
+.padding-top-large {
+  padding-top: 20px;
 }
 
 .padding-top-huge {
@@ -383,6 +400,14 @@ input[type=radio] {
 
 .line-height-150 {
   line-height: 1.5em;
+}
+
+.line-height-larger {
+  line-height: 28px;
+}
+
+.line-height-huge {
+  line-height: 32px;
 }
 
 .all-cap {
