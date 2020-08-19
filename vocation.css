@@ -54,6 +54,10 @@ input[type=radio] {
   outline-color: #1a73e8;
 }
 
+.border-top-color-shade-088 {
+  border-top-color: rgba(0,0,0,0.12);
+}
+
 .border-color-primary {
   border-color: #1a73e8;
 }
@@ -159,6 +163,14 @@ input[type=radio] {
 
 .border-right-light-gray {
   border-right: 0.6px solid #dadce0;
+}
+
+.border-top-solid {
+  border-top-style: solid;
+}
+
+.border-top-width-normal {
+  border-top-width: 1px;
 }
 
 .border-top-06 {
@@ -374,5 +386,5 @@ input[type=radio] {
 }
 
 .all-cap {
-  text-transform: uppercase; 
+  text-transform: uppercase;  
 }
