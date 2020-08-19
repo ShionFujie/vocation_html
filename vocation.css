@@ -185,6 +185,10 @@ input[type=radio] {
   border-left-style: solid;
 }
 
+.margin-smaller {
+  margin: 8px
+}
+
 .margin-top-smaller {
   margin-top: 8px;
 }
