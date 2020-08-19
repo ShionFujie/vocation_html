@@ -313,6 +313,10 @@ input[type=radio] {
   padding-bottom: 24px
 }
 
+.padding-bottom-extra-huge {
+  padding-bottom: 32px;
+}
+
 .padding-bottom-huge {
   padding-bottom: 36px;
 }
