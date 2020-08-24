@@ -78,6 +78,10 @@ input[type=radio] {
   position: absolute;
 }
 
+.font-size-h1 {
+  font-size: 1.125rem
+}
+
 .font-size-tiny {
   font-size: 12px;
 }
@@ -165,6 +169,11 @@ input[type=radio] {
   border-right: 0.6px solid #dadce0;
 }
 
+.border-normal {
+  border-style: solid;
+  border-width: 1px;
+}
+
 .border-top-solid {
   border-top-style: solid;
 }
@@ -187,6 +196,10 @@ input[type=radio] {
 
 .margin-smaller {
   margin: 8px
+}
+
+.margin-larger {
+  margin: 24px;
 }
 
 .margin-top-smaller {
@@ -253,6 +266,11 @@ input[type=radio] {
 .padding-horizontal-medium {
   padding-right: 16px;
   padding-left: 16px;
+}
+
+.padding-horizontal-larger {
+  padding-right: 24px;
+  padding-left: 24px;
 }
 
 .padding-horizontal-huge {
@@ -408,6 +426,14 @@ input[type=radio] {
 
 .line-height-150 {
   line-height: 1.5em;
+}
+
+.line-height-h1 {
+  line-height: 1.5rem;
+}
+
+.line-height-medium {
+  line-height: 20px;
 }
 
 .line-height-larger {
