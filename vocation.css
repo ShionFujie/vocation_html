@@ -262,6 +262,11 @@ input[type=radio] {
   padding-block-end: 16px;
 }
 
+.padding-vertical-large {
+padding-top: 20px;
+  padding-block-end: 20px;
+}
+
 .padding-horizontal-small {
   padding-right: 12px;
   padding-left: 12px;
