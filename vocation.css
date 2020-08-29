@@ -214,6 +214,10 @@ input[type=radio] {
   margin: 24px;
 }
 
+.margin-top-tiny {
+  margin-top: 4px;
+}
+
 .margin-top-smaller {
   margin-top: 8px;
 }
