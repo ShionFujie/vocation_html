@@ -327,6 +327,10 @@ padding-top: 20px;
   padding-top: 8px;
 }
 
+.padding-top-small {
+  padding-top: 12px;
+}
+
 .padding-top-medium {
   padding-top: 16px;
 }
@@ -487,3 +491,8 @@ padding-top: 20px;
 .all-cap {
   text-transform: uppercase;  
 }
+
+.text-align-right {
+  text-align: right;
+}
+
